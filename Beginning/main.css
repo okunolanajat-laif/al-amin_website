@@ -1,0 +1,1000 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* body{
+    background-color: #dbc3c3;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container{ 
+  min-height: 300px;
+  justify-content: center;
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   padding: 20px;
+   gap: 10px;
+   border: 2px solid rgba(94, 71, 58, 0.8);
+   border-radius: 15px;
+   box-shadow: 0px 5px 10px rgba(252, 243, 238, 0.8);
+   transform: skewX(90px);
+}
+
+h1{
+color: #b8554e;
+font-weight: bold;
+}
+
+input{
+    background-color: #ece4e4;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+}
+
+input::placeholder{
+color: #333;
+}
+
+input:focus-within{
+    color: #ffaca6;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b65858;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+}
+
+button:hover{
+    background-color: #ffaca6;
+    color: #ffdbb3;
+}
+
+.container a{
+    text-decoration: none;
+    color: #b65858;
+    text-align: right;
+    padding: 0.25rem;
+}
+
+.container a:hover{
+    color: rgb(207, 137, 148);
+}
+
+.container a:focus{
+    color: rgb(207, 137, 148);
+}
+
+.container a:active{
+    color: rgb(240, 93, 115);;
+} */
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(jonas-weckschmied--N_UwPdUs7E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    background-color: #051900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: (255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99; */
+    /* display: block;
+    list-style-type: disc;
+    margin-block: 1rem;
+    margin-inline-end: 0px;
+    margin-inline-start: opx;
+    padding-inline-start: ; */
+/* } */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+html{
+    scroll-behavior: smooth;
+    scrollbar-color: #003b6f #fffdfd ;
+    scrollbar-width: thin;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: rgba(0, 45, 90, 0.9);
+}
+
+nav img{
+    width: 80px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f5e6c8;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+nav a:hover, nav a:focus-within{
+    border-radius: 15px;
+    background-color: #fffdfd;
+    color: #003b6f;
+    padding: 10px;
+    transform: scale(1.1);
+}
+
+.hero{
+    min-height: 100vh;
+
+    background-image: 
+    linear-gradient(rgba(0, 45, 90, 0.55), rgba(0, 45, 90, 0.55)),
+    url(img/school-building.jpeg);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 5%;
+}
+
+.hero__content{
+    max-width: 700px;
+    color: white;
+}
+
+.hero__subtitle{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero h1{
+    font-size: clamp(45px, 6vw, 80px);
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+
+.hero__text{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.hero__button{
+    display: inline-block;
+
+    background-color: #fffdfd;
+    color: #003b6f;
+
+    padding: 15px 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 15px;
+    
+    transition: 0.3s;
+}
+
+.hero__button:hover, .hero__button:focus-within{
+    background-color: #003b6f;
+    color: #fffdfd;
+    transform: scale(1.1);
+}
+
+.welcome{ 
+    background-color:#fffffd;
+    padding: 100px 8%;
+    text-align: center;
+}
+
+.section__label{
+    color: #003b6f;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.welcome__content{
+    /* max-width: 850px;
+    margin: 30px auto 0;
+
+    display: none; */
+
+    max-width: 800px;
+    margin: 30px auto 0;
+
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+
+    transition: all 0.5s ease;
+}
+
+.welcome h2{
+    color: #003b6f;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.welcome__button{
+    background-color: #003b6f;
+    color: #f8f1e3;
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 15px 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.welcome__button:hover, .welcome__button:focus-within{
+    background: #f8f1e3;
+    color: #003b6f;
+    transform: translateY(-2px);
+}
+
+.welcome__content.show{
+    opacity: 1;
+    max-height: 500px;
+}
+
+.welcome__p{
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.learn__more{
+    display: inline-block;
+    margin-top: 30px;
+
+    background-color: #003b6f ;
+    color: #f8f1e3;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.learn__more:hover, .learn__more:focus-within{
+    color: #fffdfd;
+    transform: scale(1.1);
+}
+
+.levels{
+    background-color: #ffffff;
+    padding: 90px 8%;
+    text-align: center;
+    border-top: 1px solid rgba(0, 59, 111, 0.15);
+}
+
+.levels__intro{
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.levels h2{
+    color: #003b6f;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.levels__intro > p:last-child{
+    color: #555;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.levels__cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.level__card{
+    flex: 1;
+
+    padding: 35px 25px;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+
+    text-align: left;
+
+    transition: 0.3s;
+}
+
+.level__number{
+    color: #6b4b9b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.level__card h3{
+    color: #003b6f;
+    font-size: 26px;
+    margin: 15px 0;
+}
+
+.level__card p{
+    color: #555;
+    line-height: 1.7;
+}
+
+.level__card:hover, .level__card:focus-within{
+    transform: translateY(-10px);
+    border-color: #003b6f;
+    box-shadow: 0 10px 25px rgba(0, 59, 111, 0.12);
+    cursor: pointer;
+}
+
+.levels__link{
+    display: inline-block;
+
+    margin-top: 45px;
+    padding: 15px;
+
+    color: #003b6f;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.levels__link:hover, .levels__link:focus-within{
+    color: #6b4b9b;
+    transform: scaleX(1.1);
+}
+
+footer{
+   background-color: rgba(0, 45, 90, 0.9);
+    color: #f5e6c8;
+    padding: 20px 5% 20px;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.footer__brand h2{
+   margin-bottom: 15px;
+}
+
+.footer__brand p{
+    font-style: italic;
+}
+
+.footer__links{
+    display: flex;
+    gap: 20px;
+}
+.footer__links a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #f8f1e3;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer__links a:hover, .footer__links a:focus-within{
+    transform: translateY(-5px);
+    color: #ffffff;
+}
+
+.footer__bottom{
+    margin: 20px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid rgba(245, 230, 200, 0.25);
+    font-size: 14px;
+}
+
+
+@media (max-width: 800px) {
+    
+    nav{
+        padding: 12px 5%;
+    }
+
+    nav img{
+        width: 65px;
+    }
+
+    nav ul{
+        gap: 15px;
+    }
+
+    nav a{
+        font-size: 16px;
+    }
+
+    .hero{
+        min-height: 90vh;
+        padding: 60px 6%;
+    }
+
+    .hero__content{
+        max-width: 100%;
+    }
+
+    .hero__subtitle{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .hero__text{
+        font-size: 17px;
+    }
+
+    .welcome{
+        padding: 70px 6%;
+    }
+    .welcome h2{
+        font-size: 36px;
+    }
+    .welcome__p{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .levels{
+        padding: 70px 6%;
+    }
+    .levels h2{
+        font-size: 36px;
+    }
+    .levels__cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .level__card{
+        width: 100%;
+    }
+
+    .footer__brand h2{
+        font-size: 22px;
+    }
+    .footer__brand p{
+        font-size: 15px;
+    }
+
+    .footer__content{
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footer__links{
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .footer__bottom{
+        margin-top: 25px;
+    }
+
+    .story{
+        flex-direction: column;
+        padding: 70px 8%;
+        gap: 40px;
+    }
+
+    .story__content, .story__image{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .story__image{
+        height: 280px;
+    }
+
+    .story__content h2{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .hero{
+        min-height: 85vh;
+        padding: 50px 6%;
+    }
+    .hero h1{
+        font-size: 45px;
+    }
+    .hero__text{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .hero__button{
+        padding: 13px 22px;
+    }
+
+    .welcome{
+        padding: 60px 5%;
+    }
+    .welcome h2{
+        font-size: 32px;
+    }
+
+    .footer__links{
+        gap: 15px;
+    }
+    .footer__bottom{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
+
+/* ABOUT.HTML */
+.about__hero{
+    min-height: 90vh;
+
+    background-image: linear-gradient(
+        rgba(0, 45, 90, 0.6),
+        rgba(0, 45, 90, 0.6)
+    ),
+    url(img/school-building.jpeg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 8%;
+}
+
+.about__hero__content{
+    max-width: 750px;
+    color: white;
+}
+
+.about__hero h1{
+    font-size: clamp(40px, 6vw, 70px);
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.about__hero .section__label{
+    color: #f5e6c8;
+}
+
+.about__hero p:last-child{
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 650px;
+}
+
+.story{
+    background-color: #fffffd;
+    padding: 100px 8%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.story__content{
+    max-width: 550px;
+  flex: 1;
+}
+
+.story__image{
+    flex: 1;
+    max-width: 600px;
+    height: 350px;
+
+    border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0 15px 35px rgba(0, 59, 111, 0.15);
+
+}
+
+
+.story__content h2{
+    color: #003b6f;
+    font-size: 42px;
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.story__content .section__label{
+    margin-bottom: 15px;
+}
+
+.story__content > p:not(.section__label){
+    color: #444;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.story__image img{
+    width:100%;
+    height: 100%;
+    display: block;
+
+    object-fit: cover;
+}
+
+.purpose{
+background-color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 100px 8%;
+gap: 10px;
+}
+
+.purpose__intro h2{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #6b4b9b;
+}
+
+.purpose__cards{
+    display: flex;
+    gap: 25px;
+}
+.purpose__card{
+    border: 2px solid #e5e5e5;
+    box-shadow: 0px 10px 25px  rgba(245, 230, 200, 0.25);
+    padding: 80px 5%;
+    border-radius: 25px;
+}
+
+.purpose__card ul{
+    list-style: none;
+}
+
+.purpose__card h3{
+    color: #003b6f;
+    font-weight:bold;
+    margin-bottom: 25px;
+}
+
+.purpose__card p{
+    color: #444;
+    line-height: 1.8;
+}
+
+.purpose__card li{
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+    .purpose__cards{
+        flex-direction: column;
+    }
+}
+
+.beliefs{
+    background-color: #fffdfd;
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.beliefs__intro h2{
+    color: #003b6f;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.beliefs__intro > p:last-child{
+    color: #555;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.beliefs__cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.belief__card{
+    flex: 1;
+
+    padding: 35px 25px;
+
+    border: 1px solid #f8f1e3;
+    border-radius: 12px;
+
+    text-align: left;
+
+    transition: 0.2s;
+}
+
+.belief__number{
+    color: #6b4b9b;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.belief__card h3{
+    color: #003b6f;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.belief__card p{
+    color: #555;
+    line-height: 1.7;
+}
+
+.belief__card:hover, .belief__card:focus-within{
+    transform: translateY(-8px);
+    border-color: #003b6f;
+    box-shadow: 0 10px 25px rgba(0, 59, 111, 0.12);
+}
+
+@media (max-width: 800px) {
+    .beliefs__cards{
+        flex-direction: column;
+    }
+}
+
+.cta{
+    background-color: #fffdfd;
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.cta__content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta h2{
+    color: #003b6f;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cta__content > p:not(.section__label){
+    color: #444;
+    line-height: 1.7;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.cta__button{
+    display: inline-block;
+    background-color: #003b6f;
+    color: #f8f1e3;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta__button:hover, .cta__button:focus-within{
+    background-color: #6b4b9b;
+    transform: translateY(-4px);
+}
+
+@media (max-width: 480px) {
+    .cta{
+        padding: 70px 8%;
+    }
+
+    .cta h2{
+        font-size: 32px;
+    }
+
+    .cta__content > p:not(.section__label){
+        font-size: 16px;
+    }
+}
+
+.contact__hero{
+
+    min-height: 85vh;
+
+    background-image: linear-gradient(
+        rgba(0, 45, 90, 0.6),
+        rgba(0, 45, 90, 0.6)
+    ),
+    url(img/school-building.jpeg);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 8%;
+}
+
+.contact__hero__content{
+    max-width: 700px;
+    color: white;
+}
+
+.contact__hero .section__label{
+    color: #f5e6c8;
+    font-weight: bold;
+}
+
+.contact__hero h1{
+    font-size: clamp(40px, 6vw, 70px);
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.contact__hero p:last-child{
+    font-size: 20px;
+    max-width: 650px;
+    line-height: 1.6;
+}
+
+.contact{
+    display: flex;
+    gap: 70px;
+    padding: 100px 8%;
+}
+
+.contact__info, .contact__form{
+    flex: 1;
+}
+
+.contact__info h2{
+    font-size: 30px;
+    color: #003b6f;
+    margin-bottom: 10px;
+}
+
+.contact__info > p:not(.section__label){
+    color: #555;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 800px) {
+    .contact{
+        flex-direction: column;
+    }
+
+}
+
+.contact__details dt{
+    color: #003b6f;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact__details dd{
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact__form{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact__form label{
+    align-self: start;
+    padding-top: 12px;
+    color: #003b6f;
+    font-weight: bold;
+}
+
+.contact__form input, .contact__form textarea{
+    border: none;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.contact__form input:hover, .contact__form input:focus-within, .contact__form textarea:hover, .contact__form textarea:focus-within{
+     transform: translateY(-5px);
+    border-color: #003b6f;
+    box-shadow: 0 10px 25px rgba(0, 59, 111, 0.12); 
+}
+
+.contact__form button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #003b6f;
+    color: #fffdfd;
+    font-weight: bold;
+    margin-top: 10px;
+    grid-column: 1 / -1;
+    justify-self: right;
+}
+
+.contact__form button:hover, .contact__form button:focus-within{
+    background-color: #fffdfd;
+    color: #003b6f;
+   cursor: pointer;
+}
+
